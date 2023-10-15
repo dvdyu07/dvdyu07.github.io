@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 250, 243);
+}
+a, a:visited{
+    color: black;
+    text-decoration: none;
+}
+nav {
+    background-color: #BE7200;
+    margin: 0;
+    box-shadow: 0px 2px 0.9em rgb(136, 136, 136);
+    position: fixed;
+    width: 100%;
+    top: 0px; 
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    height: 150px;
+}
+.front-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+#big-title {
+    font-size: 36px;
+    font-family: 'Eagle Lake';
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+#small-title {
+    font-size: 26px;
+    font-family: 'Eagle Lake';
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+#nav-top-bar {
+    background-color: black;
+    height: 4px;
+    width: 250px;
+    top: 15px;
+    
+}
+#nav-bot-bar {
+    background-color: black;
+    height: 4px;
+    width: 250px;
+    bottom: 15px;
+}
+.nav-cascade-two{
+    font-size: 26px;
+    font-family: 'Jockey One';
+    font-weight: 100;
+    text-shadow: 0px 2px 0.2em rgb(61, 61, 61);
+}
+.nav-cascade-three{
+    font-family: 'Jockey One';
+    font-size: 20px;
+}
+.icons{
+    width: 30px;
+    height: auto;
+}
+.icon-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#location-icon{
+    margin-right: 5px;
+}
+#printer-icon{
+    margin-right: 5px;
+}
+#print{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 200px;
+    margin-top: 200px;
+    font-family: 'Crete Round';
+}
+.popular-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popular-section ul{
+    font-family: 'Crete Round';
+    width: 60%;
+    padding: 0;
+    margin-bottom: 75px;
+}
+.popular-section h1{
+    font-family: 'Eagle Lake';
+    color:#BE7200;
+    font-weight: 100;
+}
+#item-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 200;
+}
+#description{
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    font-size: 16px;
+    text-decoration: wavy;
+}
+#menu-bar{
+    height: 3px;
+    background-color: black;
+    width: 70%;
+}
+.entree-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.entree-section ol{
+    font-family: 'Crete Round';
+    width: 60%;
+    padding: 0;
+    margin-bottom: 75px;
+}
+.entree-section h1{
+    font-family: 'Eagle Lake';
+    color:#BE7200;
+    font-weight: 100;
+    margin-top: 75px;
+}
+.img-section{
+    display: flex;
+    justify-content: center;
+}
+images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 65%;
+    margin: 50px;
+}
+images img{
+    height: 220px;
+    width: 180px;
+    box-shadow: 0px 2px 0.9em rgb(136, 136, 136);
+}
+.img-container{
+    position: relative;
+    z-index: -1;
+}
+#down-flow{
+    margin-top: 40px;
+}
+.img-text{
+    position: absolute;
+    bottom: 55px;
+    right: 15px;
+    text-align: right;
+    color: white;
+    font-size: 16px;
+    font-family: 'Eagle Lake';
+}
+#down-flow-text{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+#vegetarian{
+    height: 20px;
+    width: auto;
+}
+#spicy{
+    height: 20px;
+    width: auto;
+}

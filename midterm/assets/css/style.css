@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 250, 243);
+}
+a, a:visited{
+    color: black;
+    text-decoration: none;
+}
+nav {
+    background-color: #BE7200;
+    margin: 0;
+    box-shadow: 0px 2px 0.9em rgb(136, 136, 136);
+    position: fixed;
+    width: 100%;
+    top: 0px; 
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    height: 150px;
+}
+.front-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+#big-title {
+    font-size: 36px;
+    font-family: 'Eagle Lake';
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+#small-title {
+    font-size: 26px;
+    font-family: 'Eagle Lake';
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+#nav-top-bar {
+    background-color: black;
+    height: 4px;
+    width: 250px;
+    top: 15px;
+    
+}
+#nav-bot-bar {
+    background-color: black;
+    height: 4px;
+    width: 250px;
+    bottom: 15px;
+}
+.nav-cascade-two{
+    font-size: 26px;
+    font-family: 'Jockey One';
+    font-weight: 100;
+    text-shadow: 0px 2px 0.2em rgb(61, 61, 61);
+}
+.nav-cascade-three{
+    font-family: 'Jockey One';
+    font-size: 20px;
+}
+.icons{
+    width: 30px;
+    height: auto;
+}
+.icon-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#location-icon{
+    margin-right: 5px;
+}
+.showcase-block{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    height: 900px;
+}
+.first-showcase{
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.first-showcase img{
+    width: 500px;
+    height: 350px;
+    margin-left: 100px;
+}
+#first-showcase-bar{
+    margin: 0;
+    width: 3px;
+    height: 250px;
+    background-color: #B28C51;
+    margin: 20px;
+}
+#first-text h1 {
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Crete Round';
+    font-weight: 200;
+}
+#first-text p {
+    font-size: 20px;
+    line-height: 25px;
+    color: rgb(53, 53, 53);
+    font-family: 'Josefin Sans';
+    font-weight: 100;
+}
+green{
+    color: rgb(0, 160, 0);
+}
+.second-showcase{
+    padding: 50px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    align-items: center;
+    margin-right: 100px;
+}
+.second-showcase img{
+    width: 500px;
+    height: 350px
+}
+#second-showcase-bar{
+    margin: 0;
+    width: 3px;
+    height: 250px;
+    background-color: #B28C51;
+    margin: 20px;
+}
+#second-text h1 {
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Crete Round';
+    font-weight: 200;
+}
+#second-text p {
+    font-size: 20px;
+    line-height: 25px;
+    color: rgb(53, 53, 53);
+    font-family: 'Josefin Sans';
+    font-weight: 100;
+}
+.information-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.521);
+    background-image: url('../img/big-food.png');
+    background-blend-mode: multiply;
+    background-size: 100%;
+    color: white;
+}
+#hours-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.hours-list {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:0;
+}
+.hours-list li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 370px;
+    margin: 0;
+    padding: 0;
+}
+.hours-list li p{
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+#location-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    bottom: 0;
+    background-color: #BE7200;
+}
+
