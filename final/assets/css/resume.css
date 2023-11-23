@@ -38,8 +38,12 @@ header {
     transform: scale(1.15);
 }
 nav {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     float: right;
+    height: 100%;
 }
 nav li{
     display: inline-block;
@@ -47,6 +51,7 @@ nav li{
     line-height: 150px;
 }
 nav a {
+    font-family: 'Montserrat', sans-serif;
     margin-right: 20px;
     text-decoration: none;
     font-size: 26px;
@@ -54,7 +59,7 @@ nav a {
     padding-right: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-weight: bold;
+    font-weight: 200;
     color: rgb(255, 252, 247);
     border-radius: 10px;
     text-decoration: underline rgb(255, 252, 247);
@@ -180,7 +185,7 @@ footer {
     align-items: flex-end;
     width: 100%;
     bottom: 2px;
-    background-color: rgb(200, 200, 200);
+    background-color: #EBE3D5;
     height: 150px;
     font-family: Montserrat, sans-serif;
 }
